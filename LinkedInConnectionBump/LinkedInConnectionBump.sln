@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedInConnectionBump", "LinkedInConnectionBump.csproj", "{344F2B2E-E0C8-4506-9F58-FA03E1CBA7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuite", "..\TestSuite\TestSuite.csproj", "{B88B1AA8-D6DC-457A-B535-741D700F4B34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{44AB3D51-1FDD-4EED-88F8-C475DCD16700}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{344F2B2E-E0C8-4506-9F58-FA03E1CBA7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344F2B2E-E0C8-4506-9F58-FA03E1CBA7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344F2B2E-E0C8-4506-9F58-FA03E1CBA7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344F2B2E-E0C8-4506-9F58-FA03E1CBA7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88B1AA8-D6DC-457A-B535-741D700F4B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88B1AA8-D6DC-457A-B535-741D700F4B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88B1AA8-D6DC-457A-B535-741D700F4B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88B1AA8-D6DC-457A-B535-741D700F4B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
